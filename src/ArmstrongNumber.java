@@ -27,6 +27,7 @@ public class ArmstrongNumber {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         System.out.println(isArmstrong(number));
+        sc.close();
 
 
     }

@@ -9,7 +9,7 @@ public class FibonacciSeriesUsingRecursion {
             n3 = n1 + n2;
             n1 = n2;
             n2 = n3;
-            System.out.print(" "+n3);
+            System.out.print(","+n3);
             fibonacci(count-1);
         }
 
@@ -18,7 +18,8 @@ public class FibonacciSeriesUsingRecursion {
     public static void main(String[] args){
 
         int count = 10;
-        fibonacci(count);
+        System.out.print(n1 + "," +n2);
+        fibonacci(count-2);
 
     }
 

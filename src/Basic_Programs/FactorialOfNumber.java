@@ -19,6 +19,7 @@ public class FactorialOfNumber {
         System.out.print("Enter the number: ");
         int number = sc.nextInt();
         System.out.println(factorialOfNumber(number));
+        sc.close();
 
     }
 

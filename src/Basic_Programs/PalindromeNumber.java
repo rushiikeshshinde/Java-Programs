@@ -29,6 +29,7 @@ public class PalindromeNumber {
         System.out.print("Enter the number: ");
         int number = sc.nextInt();
         palindromeNum(number);
+        sc.close();
 
     }
 

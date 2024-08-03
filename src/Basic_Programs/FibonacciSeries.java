@@ -22,6 +22,8 @@ public class FibonacciSeries {
         System.out.print("Enter the count: ");
         int count = sc.nextInt();
         fibonacciSeries(count);
+        sc.close();
+
 
     }
 

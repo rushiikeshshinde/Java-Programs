@@ -1,4 +1,5 @@
 package Basic_Programs;
+import java.util.Scanner;
 
 public class FibonacciSeriesUsingRecursion {
 
@@ -17,9 +18,11 @@ public class FibonacciSeriesUsingRecursion {
 
     public static void main(String[] args){
 
-        int count = 10;
+        Scanner sc = new Scanner(System.in);
+        int count = sc.nextInt();
         System.out.print(n1 + "," +n2);
         fibonacci(count-2);
+        sc.close();
 
     }
 

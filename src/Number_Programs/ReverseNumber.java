@@ -20,6 +20,7 @@ public class ReverseNumber {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         System.out.print(reverseNumber(number));
+        sc.close();
 
     }
 

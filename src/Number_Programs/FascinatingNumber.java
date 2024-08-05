@@ -42,6 +42,7 @@ public class FascinatingNumber {
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
         isFascinatingNumber(number);
+        sc.close();
 
     }
 

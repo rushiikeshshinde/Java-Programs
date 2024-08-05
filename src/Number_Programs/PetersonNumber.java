@@ -44,6 +44,7 @@ public class PetersonNumber {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         System.out.println(isPetersonNumber(number));
+        sc.close();
 
     }
 

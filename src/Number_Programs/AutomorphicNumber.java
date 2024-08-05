@@ -1,5 +1,7 @@
 package Number_Programs;
 
+import java.util.Scanner;
+
 public class AutomorphicNumber {
 
     static boolean isAutomorphicNumber(int num){
@@ -18,8 +20,9 @@ public class AutomorphicNumber {
 
     public static void main(String[] args) {
 
-        System.out.println(isAutomorphicNumber(76)?"Automorphic":"Not Automorphic");
-        System.out.println(isAutomorphicNumber(13)?"Automorphic":"Not Automorphic");
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        System.out.println(isAutomorphicNumber(number)?number+ " is Automorphic":number+" is Not Automorphic");
 
     }
 

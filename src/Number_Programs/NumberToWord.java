@@ -1,4 +1,4 @@
-package Basic_Programs;
+package Number_Programs;
 
 public class NumberToWord {
 

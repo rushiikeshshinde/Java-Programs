@@ -23,7 +23,7 @@ public class AutomorphicNumber {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         System.out.println(isAutomorphicNumber(number)?number+ " is Automorphic":number+" is Not Automorphic");
-
+        sc.close();
     }
 
 }

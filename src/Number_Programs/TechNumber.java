@@ -27,6 +27,7 @@ public class TechNumber {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         isTechNumber(number);
+        sc.close();
 
     }
 

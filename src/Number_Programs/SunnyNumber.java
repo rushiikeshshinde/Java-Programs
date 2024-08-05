@@ -27,6 +27,7 @@ public class SunnyNumber {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         isSunnyNumber(number);
+        sc.close();
 
     }
 
